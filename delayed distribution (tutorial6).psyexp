@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2023.1.3">
+  <Settings>
+    <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="" valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant':'f&quot;{randint(0, 999999):06.0f}&quot;', 'session':'001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="delayed distribution (tutorial6)" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="MIDDLE_BUTTON" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <PolygonComponent name="fixation" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="fixation" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$&quot;GBP &quot; + str(reward_today) + &quot; today&quot; + &quot; or&quot; + &quot; GBP &quot; + str(future_reward) + &quot; after &quot; + str(delay) + &quot; days&quot;  " valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'t','l'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'reward_today': 11, 'future_reward': 762, 'delay': 184}, {'reward_today': 15, 'future_reward': 315, 'delay': 693}, {'reward_today': 27, 'future_reward': 598, 'delay': 428}, {'reward_today': 40, 'future_reward': 124, 'delay': 571}, {'reward_today': 49, 'future_reward': 893, 'delay': 237}, {'reward_today': 67, 'future_reward': 431, 'delay': 864}, {'reward_today': 78, 'future_reward': 667, 'delay': 319}, {'reward_today': 34, 'future_reward': 215, 'delay': 506}, {'reward_today': 45, 'future_reward': 579, 'delay': 752}, {'reward_today': 67, 'future_reward': 842, 'delay': 298}, {'reward_today': 32, 'future_reward': 196, 'delay': 627}, {'reward_today': 21, 'future_reward': 753, 'delay': 915}, {'reward_today': 23, 'future_reward': 488, 'delay': 461}, {'reward_today': 45, 'future_reward': 926, 'delay': 784}, {'reward_today': 67, 'future_reward': 357, 'delay': 513}, {'reward_today': 89, 'future_reward': 610, 'delay': 359}, {'reward_today': 76, 'future_reward': 284, 'delay': 607}, {'reward_today': 75, 'future_reward': 719, 'delay': 274}, {'reward_today': 43, 'future_reward': 152, 'delay': 842}, {'reward_today': 45, 'future_reward': 880, 'delay': 195}, {'reward_today': 67, 'future_reward': 426, 'delay': 679}, {'reward_today': 56, 'future_reward': 672, 'delay': 126}, {'reward_today': 6, 'future_reward': 319, 'delay': 837}, {'reward_today': 67, 'future_reward': 541, 'delay': 508}, {'reward_today': 78, 'future_reward': 197, 'delay': 354}, {'reward_today': 65, 'future_reward': 832, 'delay': 710}, {'reward_today': 43, 'future_reward': 265, 'delay': 243}, {'reward_today': 23, 'future_reward': 908, 'delay': 956}, {'reward_today': 2, 'future_reward': 648, 'delay': 681}, {'reward_today': 44, 'future_reward': 105, 'delay': 472}, {'reward_today': 34, 'future_reward': 789, 'delay': 529}, {'reward_today': 234, 'future_reward': 237, 'delay': 397}, {'reward_today': 47, 'future_reward': 593, 'delay': 840}, {'reward_today': 87, 'future_reward': 350, 'delay': 186}, {'reward_today': 65, 'future_reward': 684, 'delay': 635}, {'reward_today': 54, 'future_reward': 430, 'delay': 158}, {'reward_today': 32, 'future_reward': 876, 'delay': 492}, {'reward_today': 89, 'future_reward': 194, 'delay': 748}, {'reward_today': 65, 'future_reward': 515, 'delay': 519}, {'reward_today': 73, 'future_reward': 784, 'delay': 274}, {'reward_today': 72, 'future_reward': 268, 'delay': 903}, {'reward_today': 403, 'future_reward': 933, 'delay': 436}, {'reward_today': 321, 'future_reward': 572, 'delay': 785}, {'reward_today': 235, 'future_reward': 329, 'delay': 561}, {'reward_today': 654, 'future_reward': 611, 'delay': 329}, {'reward_today': 321, 'future_reward': 376, 'delay': 974}, {'reward_today': 578, 'future_reward': 711, 'delay': 648}, {'reward_today': 890, 'future_reward': 145, 'delay': 781}, {'reward_today': 432, 'future_reward': 687, 'delay': 215}, {'reward_today': 124, 'future_reward': 524, 'delay': 397}, {'reward_today': 654, 'future_reward': 281, 'delay': 542}, {'reward_today': 869, 'future_reward': 859, 'delay': 876}, {'reward_today': 61, 'future_reward': 598, 'delay': 704}, {'reward_today': 16, 'future_reward': 236, 'delay': 139}, {'reward_today': 12, 'future_reward': 972, 'delay': 915}, {'reward_today': 28, 'future_reward': 407, 'delay': 283}, {'reward_today': 54, 'future_reward': 660, 'delay': 624}, {'reward_today': 55, 'future_reward': 324, 'delay': 472}, {'reward_today': 56, 'future_reward': 881, 'delay': 819}, {'reward_today': 57, 'future_reward': 153, 'delay': 198}, {'reward_today': 58, 'future_reward': 797, 'delay': 735}, {'reward_today': 59, 'future_reward': 462, 'delay': 356}, {'reward_today': 66, 'future_reward': 728, 'delay': 691}, {'reward_today': 69, 'future_reward': 185, 'delay': 530}, {'reward_today': 49, 'future_reward': 519, 'delay': 874}, {'reward_today': 43, 'future_reward': 856, 'delay': 279}, {'reward_today': 17, 'future_reward': 611, 'delay': 419}, {'reward_today': 18, 'future_reward': 278, 'delay': 768}, {'reward_today': 43, 'future_reward': 946, 'delay': 683}, {'reward_today': 90, 'future_reward': 593, 'delay': 275}, {'reward_today': 91, 'future_reward': 342, 'delay': 940}, {'reward_today': 92, 'future_reward': 786, 'delay': 519}, {'reward_today': 93, 'future_reward': 254, 'delay': 386}, {'reward_today': 94, 'future_reward': 629, 'delay': 745}, {'reward_today': 95, 'future_reward': 979, 'delay': 152}, {'reward_today': 96, 'future_reward': 415, 'delay': 810}, {'reward_today': 97, 'future_reward': 720, 'delay': 648}, {'reward_today': 98, 'future_reward': 167, 'delay': 301}, {'reward_today': 99, 'future_reward': 544, 'delay': 539}, {'reward_today': 100, 'future_reward': 812, 'delay': 286}, {'reward_today': 101, 'future_reward': 387, 'delay': 621}, {'reward_today': 105, 'future_reward': 953, 'delay': 975}, {'reward_today': 106, 'future_reward': 605, 'delay': 426}, {'reward_today': 108, 'future_reward': 250, 'delay': 587}, {'reward_today': 109, 'future_reward': 819, 'delay': 704}, {'reward_today': 110, 'future_reward': 477, 'delay': 351}, {'reward_today': 111, 'future_reward': 733, 'delay': 128}, {'reward_today': 112, 'future_reward': 198, 'delay': 467}, {'reward_today': 113, 'future_reward': 532, 'delay': 594}, {'reward_today': 114, 'future_reward': 896, 'delay': 317}, {'reward_today': 115, 'future_reward': 641, 'delay': 872}, {'reward_today': 116, 'future_reward': 316, 'delay': 529}, {'reward_today': 117, 'future_reward': 675, 'delay': 753}, {'reward_today': 118, 'future_reward': 421, 'delay': 490}, {'reward_today': 119, 'future_reward': 769, 'delay': 835}, {'reward_today': 120, 'future_reward': 132, 'delay': 246}, {'reward_today': 121, 'future_reward': 867, 'delay': 398}, {'reward_today': 122, 'future_reward': 592, 'delay': 568}, {'reward_today': 123, 'future_reward': 245, 'delay': 457}, {'reward_today': 124, 'future_reward': 998, 'delay': 683}, {'reward_today': 111, 'future_reward': 708, 'delay': 270}, {'reward_today': 132, 'future_reward': 371, 'delay': 619}, {'reward_today': 345, 'future_reward': 636, 'delay': 894}, {'reward_today': 782, 'future_reward': 284, 'delay': 372}, {'reward_today': 435, 'future_reward': 945, 'delay': 614}, {'reward_today': 212, 'future_reward': 512, 'delay': 159}, {'reward_today': 202, 'future_reward': 758, 'delay': 503}, {'reward_today': 223, 'future_reward': 194, 'delay': 724}, {'reward_today': 345, 'future_reward': 839, 'delay': 936}, {'reward_today': 643, 'future_reward': 483, 'delay': 198}, {'reward_today': 789, 'future_reward': 727, 'delay': 561}, {'reward_today': 312, 'future_reward': 158, 'delay': 785}, {'reward_today': 333, 'future_reward': 614, 'delay': 492}, {'reward_today': 222, 'future_reward': 347, 'delay': 657}, {'reward_today': 464, 'future_reward': 673, 'delay': 310}, {'reward_today': 878, 'future_reward': 229, 'delay': 904}, {'reward_today': 901, 'future_reward': 972, 'delay': 539}, {'reward_today': 216, 'future_reward': 596, 'delay': 267}, {'reward_today': 239, 'future_reward': 339, 'delay': 621}, {'reward_today': 432, 'future_reward': 705, 'delay': 448}, {'reward_today': 312, 'future_reward': 186, 'delay': 896}, {'reward_today': 346, 'future_reward': 827, 'delay': 578}, {'reward_today': 789, 'future_reward': 491, 'delay': 327}, {'reward_today': 312, 'future_reward': 256, 'delay': 682}, {'reward_today': 503, 'future_reward': 934, 'delay': 201}, {'reward_today': 403, 'future_reward': 603, 'delay': 834}, {'reward_today': 402, 'future_reward': 358, 'delay': 469}, {'reward_today': 412, 'future_reward': 804, 'delay': 731}, {'reward_today': 442, 'future_reward': 125, 'delay': 568}, {'reward_today': 342, 'future_reward': 862, 'delay': 149}, {'reward_today': 542, 'future_reward': 529, 'delay': 887}, {'reward_today': 452, 'future_reward': 789, 'delay': 654}, {'reward_today': 356, 'future_reward': 444, 'delay': 492}, {'reward_today': 457, 'future_reward': 701, 'delay': 318}, {'reward_today': 467, 'future_reward': 179, 'delay': 760}, {'reward_today': 589, 'future_reward': 825, 'delay': 437}, {'reward_today': 436, 'future_reward': 468, 'delay': 579}, {'reward_today': 231, 'future_reward': 713, 'delay': 901}, {'reward_today': 458, 'future_reward': 237, 'delay': 245}, {'reward_today': 890, 'future_reward': 594, 'delay': 513}, {'reward_today': 705, 'future_reward': 345, 'delay': 702}, {'reward_today': 603, 'future_reward': 682, 'delay': 365}, {'reward_today': 498, 'future_reward': 199, 'delay': 829}, {'reward_today': 782, 'future_reward': 836, 'delay': 486}, {'reward_today': 133, 'future_reward': 590, 'delay': 619}, {'reward_today': 127, 'future_reward': 254, 'delay': 184}, {'reward_today': 723, 'future_reward': 949, 'delay': 352}, {'reward_today': 834, 'future_reward': 615, 'delay': 701}, {'reward_today': 935, 'future_reward': 370, 'delay': 948}, {'reward_today': 657, 'future_reward': 735, 'delay': 264}, {'reward_today': 984, 'future_reward': 293, 'delay': 680}, {'reward_today': 674, 'future_reward': 848, 'delay': 531}, {'reward_today': 321, 'future_reward': 504, 'delay': 392}, {'reward_today': 234, 'future_reward': 769, 'delay': 718}, {'reward_today': 328, 'future_reward': 432, 'delay': 246}, {'reward_today': 421, 'future_reward': 788, 'delay': 593}, {'reward_today': 635, 'future_reward': 257, 'delay': 847}, {'reward_today': 432, 'future_reward': 924, 'delay': 275}, {'reward_today': 124, 'future_reward': 681, 'delay': 439}, {'reward_today': 564, 'future_reward': 346, 'delay': 796}, {'reward_today': 675, 'future_reward': 982, 'delay': 308}, {'reward_today': 874, 'future_reward': 541, 'delay': 674}, {'reward_today': 398, 'future_reward': 296, 'delay': 515}, {'reward_today': 893, 'future_reward': 852, 'delay': 802}, {'reward_today': 235, 'future_reward': 497, 'delay': 358}, {'reward_today': 6743, 'future_reward': 753, 'delay': 927}, {'reward_today': 874, 'future_reward': 410, 'delay': 684}, {'reward_today': 74, 'future_reward': 676, 'delay': 417}, {'reward_today': 346, 'future_reward': 331, 'delay': 571}, {'reward_today': 48, 'future_reward': 598, 'delay': 286}, {'reward_today': 423, 'future_reward': 263, 'delay': 652}, {'reward_today': 378, 'future_reward': 919, 'delay': 793}, {'reward_today': 984, 'future_reward': 584, 'delay': 460}, {'reward_today': 343, 'future_reward': 339, 'delay': 185}, {'reward_today': 234, 'future_reward': 694, 'delay': 729}, {'reward_today': 242, 'future_reward': 151, 'delay': 846}, {'reward_today': 345, 'future_reward': 807, 'delay': 572}, {'reward_today': 467, 'future_reward': 462, 'delay': 369}, {'reward_today': 456, 'future_reward': 726, 'delay': 748}, {'reward_today': 453, 'future_reward': 387, 'delay': 527}, {'reward_today': 234, 'future_reward': 643, 'delay': 892}, {'reward_today': 578, 'future_reward': 298, 'delay': 234}, {'reward_today': 986, 'future_reward': 554, 'delay': 679}, {'reward_today': 128, 'future_reward': 809, 'delay': 301}, {'reward_today': 435, 'future_reward': 476, 'delay': 426}, {'reward_today': 678, 'future_reward': 731, 'delay': 867}, {'reward_today': 342, 'future_reward': 187, 'delay': 548}, {'reward_today': 476, 'future_reward': 843, 'delay': 401}, {'reward_today': 478, 'future_reward': 498, 'delay': 298}, {'reward_today': 479, 'future_reward': 254, 'delay': 637}, {'reward_today': 477, 'future_reward': 909, 'delay': 194}, {'reward_today': 770, 'future_reward': 565, 'delay': 827}, {'reward_today': 744, 'future_reward': 320, 'delay': 530}, {'reward_today': 457, 'future_reward': 676, 'delay': 765}, {'reward_today': 145, 'future_reward': 431, 'delay': 289}, {'reward_today': 731, 'future_reward': 787, 'delay': 439}, {'reward_today': 846, 'future_reward': 542, 'delay': 872}, {'reward_today': 684, 'future_reward': 297, 'delay': 214}, {'reward_today': 305, 'future_reward': 653, 'delay': 689}, {'reward_today': 503, 'future_reward': 408, 'delay': 572}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="data/delay distribution factors.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+  </Flow>
+</PsychoPy2experiment>
